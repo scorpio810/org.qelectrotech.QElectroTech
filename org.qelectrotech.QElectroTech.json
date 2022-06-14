@@ -1,7 +1,7 @@
 {
   "id": "org.qelectrotech.QElectroTech",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.15",
+  "runtime-version": "5.15-21.08",
   "sdk": "org.kde.Sdk",
   "command": "qelectrotech",
   "rename-desktop-file": "qelectrotech.desktop",
@@ -28,7 +28,7 @@
         {
           "type": "git",
           "url": "https://github.com/iwalton3/tkinter-standalone",
-          "commit": "2301112d142ebaf7532b25600c77d1a2edc9ef04"
+          "commit": "20950173c51b7d4b67cfb5d765d41c2600f9bee3"
         }
             ],
       "modules": [
@@ -37,8 +37,8 @@
           "sources": [
             {
               "type": "archive",
-              "url": "https://sourceforge.net/projects/tcl/files/Tcl/8.6.11/tcl8.6.11-src.tar.gz",
-              "sha256": "8c0486668586672c5693d7d95817cb05a18c5ecca2f40e2836b9578064088258"
+              "url": "https://prdownloads.sourceforge.net/tcl/tcl8.6.12-src.tar.gz",
+              "sha256": "26c995dd0f167e48b11961d891ee555f680c175f7173ff8cb829f4ebcde4c1a6"
             }
           ],
           "subdir": "unix",
@@ -51,8 +51,8 @@
           "sources": [
             {
               "type": "archive",
-              "url": "https://sourceforge.net/projects/tcl/files/Tcl/8.6.11/tk8.6.11-src.tar.gz",
-              "sha256": "5228a8187a7f70fa0791ef0f975270f068ba9557f57456f51eb02d9d4ea31282"
+              "url": "https://prdownloads.sourceforge.net/tcl/tk8.6.12-src.tar.gz",
+              "sha256": "12395c1f3fcb6bed2938689f797ea3cdf41ed5cb6c4766eec8ac949560310630"
             }
           ],
           "subdir": "unix",
